@@ -1,6 +1,6 @@
 # About
 
-This repository contains my personal .vim folder (kind of as a back up or to share with other people).
+This repository contains my personal .vim folder (as a way to synchronize between machines or to share with other people).
 
 # Installation
 
