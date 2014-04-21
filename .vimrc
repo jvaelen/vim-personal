@@ -118,7 +118,7 @@ let g:syntastic_always_populate_loc_list=1
 " Automatically open and close error list
 let g:syntastic_auto_loc_list=1
 " Only open error list when there is at least one error (no warnings)
-let g:syntastic_quiet_warnings=1
+let let g:syntastic_quiet_messages = {'level': 'warnings'}
 
 " Latex-Box plugin default is xdg-open (linux)
 let g:LatexBox_viewer='open'
