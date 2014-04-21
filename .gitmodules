@@ -7,9 +7,6 @@
 [submodule "bundle/vim-colorschemes"]
 	path = bundle/colorschemes
 	url = git@github.com:flazz/vim-colorschemes.git
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://git.wincent.com/command-t.git
 [submodule "bundle/minibufexpl.vim"]
 	path = bundle/minibufexpl.vim
 	url = git@github.com:fholgado/minibufexpl.vim.git
