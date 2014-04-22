@@ -1,6 +1,7 @@
 # About
 
-This repository contains my personal .vim folder (as a way to synchronize between machines or to share with other people).
+This repository contains my personal .vim folder (as a way to synchronize plug-ins between machines or to share with other people).
+NOTE: not all plugins are proper submodules and can thus be synchronized. E.g. YouCompleteMe, because it requires a proper installation.
 
 # Installation
 
