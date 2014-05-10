@@ -1,6 +1,6 @@
 # About
 
-This repository contains my personal .vim folder (as a way to synchronize plugins between machines or to share with other people).
+This repository contains my personal .vim folder (as a way to synchronize plugins between machines).
 NOTE: Not all plugins I use are submodules. Some (e.g. YouCompleteMe) require an installation on every machine. These modules are listed in .gitignore.
 
 # Adding new plugins as submodules
@@ -13,6 +13,9 @@ Plugins that are just a cloned git repository can be installed as a submodule so
     git commit -m "Added bundle <bundle name>."
 
 # Installation
+
+Make sure the public key of the machine you are using is added to the list of keys. 
+(a todo could be to use http instead of ssh for these kind of things)
 
     cd ~
     git clone https://github.com/jvaelen/vim-personal.git .vim
