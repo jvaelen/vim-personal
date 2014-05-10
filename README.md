@@ -7,6 +7,8 @@ NOTE: not all plugins are proper submodules and can thus be synchronized. E.g. Y
 
     cd ~
     git clone https://github.com/jvaelen/vim-personal.git .vim
+    cd .vim
+    git submodule update --init
 
 # Thanks to
 
